@@ -14,19 +14,22 @@ Archivo único autónomo: [`index.html`](./index.html). Sin build ni dependencia
 - **Firma visual:** la muesca negra de la "P" del logo, repetida como esquina achaflanada (clip-path)
   en botones y tarjetas; línea de ruta animada roja/cian.
 
-## Datos a reemplazar (placeholders)
+## Datos cargados
 
-Busca y reemplaza en `index.html`:
+- **WhatsApp:** +58 414 303 8227 (Venezuela) · enlaces `wa.me/584143038227`
+- **Teléfono (USA):** +1 786 210 5098 · `tel:+17862105098`
+- **Correo:** inversionespremar@gmail.com
+- **Frío controlado:** −18°C a +8°C (hero, servicios y flota)
+- **Empresa / RIF:** Inversiones Premar 7879, C.A. — RIF J-29893457-3
+
+## Pendiente por confirmar (placeholders)
 
 | Placeholder | Aparece en | Reemplazar por |
 |---|---|---|
-| `584120000000` | enlaces `wa.me` y `tel:` | número real de WhatsApp/teléfono (formato internacional, sin `+` ni espacios) |
-| `+58 412 000 0000` | tarjeta de contacto y footer | número visible real |
-| `contacto@transportepremar.com` | contacto y footer | correo real |
-| Estadísticas del hero (`20+`, `24/7`) | sección hero | cifras reales (años, estados, flota) |
+| Estadísticas del hero (`20+`, `24/7`) | sección hero | cifras reales (estados cubiertos, disponibilidad) |
 | Lista de estados | sección Cobertura | estados donde realmente operan |
 
-> El RIF `J-29893457-3` y la razón social ya están tomados del logo suministrado. Verifícalos.
+> El RIF y la razón social se tomaron del logo suministrado. Verifícalos.
 
 ## Desplegar
 
