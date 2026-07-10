@@ -15,16 +15,16 @@
 <!-- ===================== HEADER ===================== -->
 <header>
   <div class="wrap nav">
-    <a href="#top" class="logo" aria-label="Inversiones Premar 7879 C.A.">
+    <a href="index.html" class="logo" aria-label="Inversiones Premar 7879 C.A.">
       <span class="l1">INVERSIONES</span>
       <span class="l2">PREMAR</span>
     </a>
     <nav class="nav-links" id="navLinks">
       <a href="servicios.html">Servicios</a>
-      <a href="#cobertura">Cobertura</a>
-      <a href="#flota">Flota</a>
-      <a href="#proceso">Proceso</a>
-      <a href="#contacto">Contacto</a>
+      <a href="cobertura.html">Cobertura</a>
+      <a href="flota.html">Flota</a>
+      <a href="proceso.html">Proceso</a>
+      <a href="contacto.html">Contacto</a>
     </nav>
     <div class="nav-cta">
       <a href="https://wa.me/584143038227?text=Hola%20Transporte%20Premar%2C%20quiero%20una%20cotizaci%C3%B3n" class="btn btn-red notch-tr" target="_blank" rel="noopener">Cotizar</a>
@@ -60,7 +60,7 @@
   </div>
 </section>
 
-<!-- ===================== SERVICIOS ===================== -->
+<!-- ===================== SERVICIOS (resumen) ===================== -->
 <section id="servicios">
   <div class="wrap">
     <div class="sec-head reveal">
@@ -69,28 +69,29 @@
       <p>Separamos el frío del seco porque cada uno exige un equipo distinto. Elige el servicio y coordinamos la ruta contigo.</p>
     </div>
     <div class="services">
-      <article class="svc cold notch-tr reveal">
+      <a class="svc cold notch-tr reveal" href="servicios.html#refrigerada">
         <span class="tag mono">Rango −18°C / +8°C</span>
         <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M12 2v20M4 6l16 12M20 6 4 18" stroke-linecap="round"/><path d="m9 4 3 2 3-2M9 20l3-2 3 2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <h3>Carga refrigerada</h3>
         <p>Alimentos, congelados, perecederos y producto farmacéutico con cadena de frío monitoreada de origen a destino. Sin quiebres de temperatura.</p>
         <div class="bar"></div>
-      </article>
-      <article class="svc dry notch-tr reveal">
+      </a>
+      <a class="svc dry notch-tr reveal" href="servicios.html#seca">
         <span class="tag mono">Furgón cerrado y seguro</span>
         <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M3 6h13v9H3zM16 9h4l1 3v3h-5" stroke-linejoin="round"/><circle cx="7" cy="18" r="1.6"/><circle cx="18" cy="18" r="1.6"/></svg>
         <h3>Carga seca</h3>
         <p>Mercancía general y paletizada para distribución y abastecimiento. Furgones cerrados que protegen tu producto en toda la vía nacional.</p>
         <div class="bar"></div>
-      </article>
-      <article class="svc gen notch-tr reveal">
+      </a>
+      <a class="svc gen notch-tr reveal" href="servicios.html#distribucion">
         <span class="tag mono">Puerta a puerta</span>
         <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M12 21s7-5.7 7-11a7 7 0 1 0-14 0c0 5.3 7 11 7 11Z" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.6"/></svg>
         <h3>Distribución nacional</h3>
         <p>Recogemos y entregamos entre los principales centros del país, coordinando cada tramo para que tu carga no se detenga.</p>
         <div class="bar"></div>
-      </article>
+      </a>
     </div>
+    <div class="sec-more reveal"><a href="servicios.html" class="btn btn-dark notch-tr">Ver todos los servicios</a></div>
   </div>
 </section>
 
@@ -110,101 +111,8 @@
   </div>
 </section>
 
-<!-- ===================== COBERTURA ===================== -->
-<section id="cobertura" class="cover">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Dónde llegamos</span>
-      <h2>Ruta abierta en toda Venezuela</h2>
-      <p>Conectamos los principales polos de producción y consumo del país. Si tu ruta no aparece, escríbenos: la evaluamos.</p>
-    </div>
-    <div class="cover-grid">
-      <ul class="regions reveal">
-        <li><span class="chip"></span> Distrito Capital</li>
-        <li><span class="chip"></span> Miranda</li>
-        <li><span class="chip"></span> Zulia</li>
-        <li><span class="chip"></span> Carabobo</li>
-        <li><span class="chip"></span> Aragua</li>
-        <li><span class="chip"></span> Lara</li>
-        <li><span class="chip"></span> Anzoátegui</li>
-        <li><span class="chip"></span> Bolívar</li>
-        <li><span class="chip"></span> Táchira</li>
-        <li><span class="chip"></span> Falcón</li>
-        <li><span class="chip"></span> Mérida</li>
-        <li><span class="chip"></span> Portuguesa</li>
-      </ul>
-      <div class="cover-note notch-tr reveal">
-        <span class="mono">Ruta en vivo</span>
-        <h3>Occidente ⇄ Oriente</h3>
-        <p>Movemos carga entre los ejes Maracaibo–Caracas–Puerto La Cruz y sus conexiones, coordinando frío y seco en la misma malla logística.</p>
-        <svg class="cover-map" viewBox="0 0 320 130" fill="none" aria-hidden="true">
-          <line x1="12" y1="96" x2="308" y2="40"/>
-          <path class="live" d="M20 92 C 90 70, 150 96, 210 58 S 292 40, 300 44" stroke-width="2"/>
-          <circle cx="20" cy="92" r="4"/><circle cx="160" cy="80" r="4"/><circle cx="300" cy="44" r="4"/>
-        </svg>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== FLOTA ===================== -->
-<section id="flota">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Con qué transportamos</span>
-      <h2>Flota para cada carga</h2>
-      <p>Equipos seleccionados según el tipo de mercancía, el volumen y la ruta.</p>
-    </div>
-    <div class="fleet">
-      <article class="unit notch-tr reveal">
-        <div class="idx mono">UNIDAD / 01</div>
-        <h3>Furgón refrigerado</h3>
-        <dl>
-          <dt>Rango</dt><dd class="mono">−18°C a +8°C</dd>
-          <dt>Uso</dt><dd>Frío y congelado</dd>
-          <dt>Control</dt><dd>Temperatura monitoreada</dd>
-        </dl>
-      </article>
-      <article class="unit notch-tr reveal">
-        <div class="idx mono">UNIDAD / 02</div>
-        <h3>Furgón seco</h3>
-        <dl>
-          <dt>Tipo</dt><dd>Cerrado</dd>
-          <dt>Uso</dt><dd>Paletizado y general</dd>
-          <dt>Ruta</dt><dd>Nacional</dd>
-        </dl>
-      </article>
-      <article class="unit notch-tr reveal">
-        <div class="idx mono">UNIDAD / 03</div>
-        <h3>Carga de volumen</h3>
-        <dl>
-          <dt>Uso</dt><dd>Grandes lotes</dd>
-          <dt>Modo</dt><dd>Distribución</dd>
-          <dt>Coord.</dt><dd class="mono">24/7</dd>
-        </dl>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== PROCESO ===================== -->
-<section id="proceso" class="proc-sec">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Cómo trabajamos</span>
-      <h2>De la cotización a la entrega</h2>
-    </div>
-    <div class="proc">
-      <div class="step reveal"><div class="num">01</div><h3>Cotizas</h3><p>Nos escribes por WhatsApp con origen, destino y tipo de carga.</p></div>
-      <div class="step reveal"><div class="num">02</div><h3>Coordinamos</h3><p>Definimos unidad, temperatura y ventana de recogida.</p></div>
-      <div class="step reveal"><div class="num">03</div><h3>Transportamos</h3><p>Tu carga viaja con control de frío y seguimiento de ruta.</p></div>
-      <div class="step reveal"><div class="num">04</div><h3>Entregamos</h3><p>Confirmamos la entrega puerta a puerta en destino.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== CONTACTO ===================== -->
-<section id="contacto" class="contact">
+<!-- ===================== CTA FINAL ===================== -->
+<section class="contact">
   <div class="wrap">
     <div class="contact-grid">
       <div class="reveal">
@@ -216,7 +124,7 @@
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .1-3.2-.9-2.7-1.2-4.4-4-4.5-4.2-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.6-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2 1.2.9 1.7.9 2 .8.2-.1.6-.7.8-.9.2-.3.4-.2.6-.1l1.9.9c.2.1.4.2.5.3.1.3.1.7-.1 1.2Z"/></svg>
             Escribir por WhatsApp
           </a>
-          <a href="tel:+584143038227" class="btn btn-dark notch-tr">Llamar ahora</a>
+          <a href="contacto.html" class="btn btn-dark notch-tr">Ver contacto</a>
         </div>
       </div>
       <div class="contact-card notch-tr reveal">
@@ -235,7 +143,7 @@
   <div class="wrap">
     <div class="foot-top">
       <div>
-        <a href="#top" class="logo on-dark" aria-label="Inversiones Premar 7879 C.A.">
+        <a href="index.html" class="logo on-dark" aria-label="Inversiones Premar 7879 C.A.">
           <span class="l1">INVERSIONES</span>
           <span class="l2">PREMAR</span>
         </a>
@@ -245,9 +153,10 @@
         <div>
           <h4>Navegar</h4>
           <a href="servicios.html">Servicios</a>
-          <a href="#cobertura">Cobertura</a>
-          <a href="#flota">Flota</a>
-          <a href="#proceso">Proceso</a>
+          <a href="cobertura.html">Cobertura</a>
+          <a href="flota.html">Flota</a>
+          <a href="proceso.html">Proceso</a>
+          <a href="contacto.html">Contacto</a>
         </div>
         <div>
           <h4>Contacto</h4>
@@ -270,10 +179,7 @@
 </a>
 
 <script>
-  // year
   document.getElementById('year').textContent = new Date().getFullYear();
-
-  // mobile menu
   var menuBtn = document.getElementById('menuBtn');
   var navLinks = document.getElementById('navLinks');
   menuBtn.addEventListener('click', function(){
@@ -283,8 +189,6 @@
   navLinks.addEventListener('click', function(e){
     if(e.target.tagName === 'A'){ navLinks.classList.remove('open'); menuBtn.setAttribute('aria-expanded', false); }
   });
-
-  // scroll reveal
   var io = new IntersectionObserver(function(entries){
     entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
   }, {threshold:.14});

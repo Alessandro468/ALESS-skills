@@ -75,6 +75,8 @@
   .nav-links a{font-size:.82rem;font-weight:600;letter-spacing:.02em;color:var(--ink);position:relative}
   .nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--red);transition:width .2s ease}
   .nav-links a:hover::after{width:100%}
+  .nav-links a[aria-current="page"]{color:var(--red)}
+  .nav-links a[aria-current="page"]::after{width:100%}
   .nav-cta{display:flex;align-items:center;gap:16px}
   .menu-btn{display:none;background:none;border:0;cursor:pointer;flex-direction:column;gap:5px;padding:6px}
   .menu-btn span{width:24px;height:2px;background:var(--ink);display:block;transition:.2s}
@@ -195,6 +197,7 @@
   .foot-bottom{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;color:#77777E;font-size:.8rem}
   .foot-bottom .mono{letter-spacing:.08em}
 
+  .sec-more{margin-top:30px;text-align:center}
   /* ---------- reveal ---------- */
   .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
   .reveal.in{opacity:1;transform:none}

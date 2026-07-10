@@ -1,16 +1,28 @@
-# Transporte Premar — Landing
+# Transporte Premar — Sitio web
 
-Landing page de una sola página para **Inversiones Premar 7879, C.A.** (RIF J-29893457-3),
-transporte de carga refrigerada y seca en toda Venezuela.
+Sitio multipágina para **Inversiones Premar 7879, C.A.** (RIF J-29893457-3),
+transporte de carga refrigerada y seca en toda Venezuela. Sin build ni dependencias.
 
-Archivo único autónomo: [`index.html`](./index.html). Sin build ni dependencias.
+## Páginas
+
+| Archivo | Menú | Contenido |
+|---|---|---|
+| `index.html` | Inicio | Hero, resumen de servicios, diferenciales, CTA |
+| `servicios.html` | Servicios | Detalle de carga refrigerada, seca y distribución (con espacios para fotos) |
+| `cobertura.html` | Cobertura | Estados con servicio y ejes de ruta |
+| `flota.html` | Flota | Unidades y especificaciones |
+| `proceso.html` | Proceso | Pasos 01–04, de la cotización a la entrega |
+| `contacto.html` | Contacto | WhatsApp, teléfonos, correo y datos de la empresa |
+
+CSS compartido en `assets/styles.css`; fotos en `assets/fotos/`.
+El menú superior y el footer enlazan estas páginas; la página activa se resalta en rojo.
 
 ## Diseño
 
 - **Skills usadas:** `frontend-design` (dirección estética) + `ui-ux-pro-max` (paleta, tipografía, patrones UX).
 - **Paleta:** Negro `#0B0B0C` + Rojo Premar `#D40F27` (del logo) + blanco/hueso.
   El cian `#1FB6D6` se usa **solo** para señalar la carga **refrigerada** (el color codifica el servicio, no decora).
-- **Tipografía:** Archivo Expanded (display) · IBM Plex Sans (cuerpo) · IBM Plex Mono (datos), vía Google Fonts.
+- **Tipografía:** Archivo (display, peso 900) · IBM Plex Sans (cuerpo) · IBM Plex Mono (datos), vía Google Fonts.
 - **Firma visual:** la muesca negra de la "P" del logo, repetida como esquina achaflanada (clip-path)
   en botones y tarjetas; línea de ruta animada roja/cian.
 
